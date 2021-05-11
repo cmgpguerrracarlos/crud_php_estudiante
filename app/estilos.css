@@ -1,0 +1,16 @@
+.contenedor{
+    background-color:wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+td,tr,th{
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+th{
+    background-color: black;
+    color: wheat;
+}
