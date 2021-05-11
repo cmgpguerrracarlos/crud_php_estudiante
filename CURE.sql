@@ -33,16 +33,6 @@ CREATE TABLE `estudiante` (
   `apellido` varchar(25) NOT NULL,
   `edad` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `estudiante`
---
-
-INSERT INTO `estudiante` (`ci`, `nombre`, `apellido`, `edad`) VALUES
-('45678909', 'Maria', 'Perez', 18),
-('481900433', 'Carlos', 'Guerra', 33),
-('7777777', 'Ana', 'Guerra', 43);
-
 --
 -- Indexes for dumped tables
 --
