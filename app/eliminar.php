@@ -1,7 +1,7 @@
 <?php require './cabezal.php'?>
 <div class="contenedor">
 <?php
-    require './estudiantes.php';
+    require './model/estudiantes.php';
     $ci = $_GET['ci'];
     $rows = eliminar($ci);
     if($rows>0){

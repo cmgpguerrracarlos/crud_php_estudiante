@@ -5,7 +5,7 @@
 $ci = $_POST['ci'];
 $edad = $_POST['edad'];
 
-require './estudiantes.php';
+require './model/estudiantes.php';
 
 $rows = actualizar($ci,$edad);
 if($rows>0){

@@ -4,7 +4,7 @@
 
 <body>
     <div class="contenedor">
-        <?php require 'estudiantes.php';
+        <?php require './model/estudiantes.php';
         $estudiantes = getAll();
         ?>
         <h1>Lista de Estudiantes</h1>

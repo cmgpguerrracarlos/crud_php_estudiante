@@ -12,7 +12,7 @@
 <body>
 <div class="contenedor">
 <?php
-    require './estudiantes.php';
+    require './model/estudiantes.php';
     $ci = $_GET['ci'];
 
     $estudiante = mysqli_fetch_array(buscarPorCi($ci));

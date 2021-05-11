@@ -1,7 +1,7 @@
 <?php require './cabezal.php'?>
 <div class="contenedor">
 <?php
-    require './estudiantes.php';
+    require './model/estudiantes.php';
     $ci = $_POST['ci'];
     $nombre = $_POST['nombre'];
     $apellido = $_POST['apellido'];
